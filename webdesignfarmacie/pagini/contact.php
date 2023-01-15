@@ -9,20 +9,19 @@
   </div>
     <div class="container">
         <h2>Contacteaza-ne:</h2>
-        <form>
+        <form action="../includes/contact.inc.php" method="post">
             <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                <input type="text" class="form-control" name="name" placeholder="Name:">
             </div>
             <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                <input type="email" class="form-control" name="email" placeholder="Email:">
             </div>
             <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
+                <input type="test" class="form-control" name="message" placeholder="Message:">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="form-btn">
+                <input type="submit" class="btn btn-primary" value="Submit Message" name="submit">
+            </div>
         </form>
         <div class="contact-info">
             <h3>Informatii de contact</h3>

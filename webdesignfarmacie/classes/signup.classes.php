@@ -15,7 +15,7 @@ class Signup extends DatabaseHandler{
         $stmt = null;
     }
 
-    protected function checkUser($firstname,$email){
+    protected function checkUser($firstname, $email){
         $stmt = $this->connect()->prepare('SELECT IDUser FROM users WHERE email = ? OR firstname = ?;');
 
         if(!$stmt->execute(array($email, $firstname))){
