@@ -4,10 +4,10 @@ readfile('../headerfooter/header.php');
 
 <form action="../includes/signup.inc.php" method="post">
             <div class="form-group">
-                <input type="text" class="form-control" name="firstname" placeholder="Full Name:">
+                <input type="text" class="form-control" name="firstname" placeholder="First name:">
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" name="lastname" placeholder="Full Name:">
+                <input type="text" class="form-control" name="lastname" placeholder="Last name:">
             </div>
             <div class="form-group">
                 <input type="emamil" class="form-control" name="email" placeholder="Email:">

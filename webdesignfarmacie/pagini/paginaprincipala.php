@@ -41,20 +41,20 @@
 <h2>In aceasta farmacie vei gasi toate medicamentele de care vei avea nevoie pentru problemele tale</h2>
 <table class="table">
   <tr>
-    <th>Product</th>
-    <th>Price</th>
+    <th>Orase in care suntem prezenti : </th>
+    <th>Adresa : </th>
   </tr>
   <tr>
-    <td>Pain relief</td>
-    <td>$10</td>
+    <td>Brasov</td>
+    <td>Strada Nicolae Iorga 20</td>
   </tr>
   <tr>
-    <td>Cold and flu</td>
-    <td>$15</td>
+    <td>Bucuresti</td>
+    <td>Bulevarul Victoriei 5</td>
   </tr>
   <tr>
-    <td>Allergy relief</td>
-    <td>$20</td>
+    <td>Timisoara</td>
+    <td>Strada 1 Decembrie 1918 5</td>
   </tr>
 </table>
 </div>
