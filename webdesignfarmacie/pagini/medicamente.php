@@ -7,15 +7,14 @@ if (!isset($_SESSION["IDUser"])) {
 ?>
 <div class="container">
     <h1>Medicamentele noastre:</h1>
-    <div class="row">
-        <div class="col-sm-4">
             <?php
         require_once '../classes/medicamente-controller.classes.php';
+
         foreach ($medicamente as $row) {
             ob_start();
 
             echo '<div class="col-sm-4">';
-            echo '<br style= "margin-bottom: 5%">';
+            echo '<br style= "margin-bottom: 1%">';
             echo '<div class="card">';
             echo '<img src="data:image/jpeg;base64,' . base64_encode($row['Imagine']) . '" class="img-thumbnail" alt="image">';
             echo '<div class="card-body">';
